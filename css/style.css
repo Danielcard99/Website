@@ -348,10 +348,20 @@ footer {
   color: white;
   display: block;
   margin: 0 0 10px 0;
+  text-decoration: none;
+}
+
+.footer__box a:hover{
+  text-decoration: underline;
 }
 
 .footer__box__wraper:last-child > a {
   display: inline-block;
+}
+
+.footer__box__wraper i:hover {
+  font-size: 24px;
+  transition: 1s;
 }
 
 /* Section Sobre */
@@ -610,6 +620,7 @@ section.imagem {
   height: 300px;
   padding: 10px;
   font-size: 16px;
+  resize: vertical;
 }
 
 .contato__form input[type="submit"] {
